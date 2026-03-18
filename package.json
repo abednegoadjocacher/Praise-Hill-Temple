@@ -1,6 +1,7 @@
 {
   "name": "icgc",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.30.3",
   "engines": {
     "node": "25.7.0"
   },
