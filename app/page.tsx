@@ -139,7 +139,7 @@ export default function HomePage() {
               <div className="w-8 h-8 bg-green-600 rounded flex items-center justify-center">
                 <Home className="w-5 h-5 text-white" />
               </div>
-              <h1 className="font-bold text-gray-900">ICGC-PHT</h1>
+              <h1 className="font-bold text-gray-900">Church Name</h1>
             </div>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
