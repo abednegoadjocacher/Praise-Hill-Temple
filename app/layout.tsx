@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ICGC-PHT",
-  description: "ICGC Praise-Hill Temple",
+  title: "ADJOCACHER",
+  description: "Adjocachers' Church Application for sale",
 };
 
 export default function RootLayout({
