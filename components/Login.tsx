@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Lock, User, Eye, EyeOff, Home } from 'lucide-react';
+import { Lock, User, Eye, EyeOff, Home, PhoneCall, MailIcon } from 'lucide-react';
 import { LoginProps } from  "@/interface"
 
 export default function Login({ onLogin }: LoginProps) {
@@ -134,7 +134,7 @@ export default function Login({ onLogin }: LoginProps) {
           {/* Footer */}
           <div className="mt-6 text-center">
             <p className="text-xs text-gray-500">
-              Protected system for authorized personnel only
+              Protected system for authorized Church only
             </p>
           </div>
         </div>
@@ -143,7 +143,11 @@ export default function Login({ onLogin }: LoginProps) {
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-600">
             Need help? Contact your system administrator
+            
           </p>
+           <a className="text-sm text-blue-800" href="https://wa.link/gr0a3e" target="_blank">
+             Send a chat
+            </a>
         </div>
       </div>
     </div>
